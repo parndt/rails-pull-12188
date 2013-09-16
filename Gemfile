@@ -1,7 +1,21 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.0', github: 'rails/rails', branch: '4-0-stable'
+gem 'refinerycms', github: 'refinery/refinerycms', branch: 'rails4'
+
+gem 'refinerycms-i18n', github: 'refinery/refinerycms-i18n', branch: 'master'
+
+gem 'friendly_id', github: 'norman/friendly_id', branch: 'master'
+gem 'friendly_id-globalize', github: 'norman/friendly_id-globalize', branch: 'master'
+gem 'quiet_assets'
+
+gem 'protected_attributes'
+gem 'seo_meta', github: 'parndt/seo_meta', branch: 'master'
+
+gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
+gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
+gem 'awesome_nested_set', github: 'collectiveidea/awesome_nested_set', branch: 'master'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
